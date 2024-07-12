@@ -51,6 +51,6 @@ export const PlayerSchema = new Schema({
     },
     created_date:{
         type: Date,
-        enum: Date.now
+        default: Date.now
     }
 })
