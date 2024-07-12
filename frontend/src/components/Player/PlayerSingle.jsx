@@ -1,10 +1,10 @@
-const PlayerSingle = () => {
+const PlayerSingle = (props) => {
     return(
         <div className="row">
             <div className="col s12">
                 <div className="card">
                     <div className="card-image">
-                        <img src="soccer.jpeg"alt="Soceer Image"/>
+                        <img src="soccer.jpg"alt="Soccer Image"/>
                         <span className="card-title">{props.player.firstName} {props.player.lastName}</span>
                     </div>
                     <div className="card-content">
