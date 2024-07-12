@@ -13,7 +13,7 @@ class App extends React.Component{
         </div>
         <div className='row'>
           <div className='col s3'><PlayerList /></div>
-          <div className='col s3'><PlayerSingle /></div>
+          <div className='col s9'><PlayerSingle /></div>
         </div>
         <div className='row'>
           <div className='col s12'><PlayerForm /></div>
