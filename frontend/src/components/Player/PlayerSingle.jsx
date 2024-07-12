@@ -8,7 +8,7 @@ const PlayerSingle = (props) => {
                         <span className="card-title">{props.player.firstName} {props.player.lastName}</span>
                     </div>
                     <div className="card-content">
-                        <p> Phone: {props.player.phone} -Email: {props.player.email}</p>
+                        <p> Phone: {props.player.phone} - Email: {props.player.email}</p>
                         <p>Strength: {props.player.strength} -Endurance: {props.player.endurance}</p>
                     </div>
                     <div className="card-action">
