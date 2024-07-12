@@ -9,7 +9,7 @@ const PORT = 4000;
 
 //mongo connection
 mongoose.Promise= global.Promise
-mongoose.connect('mongodb://localhost/soccerDB')
+mongoose.connect(`mongodb://localhost/soccerDB`);
 
 //bodyparser
 app.use(bodyparser.urlencoded({extended: true}))
@@ -18,7 +18,7 @@ app.use(bodyparser.json())
 //Cors
 app.use(cors())
 
-// routes(app)
+routes(app)
 
 app.get('/',(req, res) =>
     res.send(`Our application is running on port ${PORT}`)
